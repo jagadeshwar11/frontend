@@ -1,0 +1,29 @@
+body{
+    background-image: url("Images/back.jpg");
+    background-attachment: fixed;
+}
+
+ul#items{
+    line-height: 50px;
+}
+ul{
+    margin: 0;
+    margin-right: 1.9rem;
+}
+ul#items li {
+    list-style-type: none;
+    display: inline-block;
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+li:hover{
+    background-color: rgb(148, 231, 15);
+    color: #000;
+    
+}
